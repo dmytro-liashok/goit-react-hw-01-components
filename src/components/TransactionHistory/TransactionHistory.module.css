@@ -1,0 +1,21 @@
+.transactionHistory {
+  width: 400px;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  background-color: turquoise;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid gainsboro;
+}
+
+tbody tr:nth-child(even) {
+  background-color: silver;
+}
