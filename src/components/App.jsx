@@ -24,8 +24,3 @@ export const App = () => {
     </Container>
   );
 };
-// console.log(dataArray);
-
-// App.propTypes = {
-//   dataId: PropTypes.string.isRequired,
-// };

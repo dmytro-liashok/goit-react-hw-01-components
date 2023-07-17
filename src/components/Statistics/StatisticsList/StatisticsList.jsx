@@ -1,7 +1,5 @@
 import PropTypes from 'prop-types';
 import StatisticsItem from '../StatisticsItem/StatisticsItem';
-import React, { useState, useEffect } from 'react';
-
 import css from './StatisticsList.module.css';
 
 const StatisticsList = ({ dataArray }) => {
