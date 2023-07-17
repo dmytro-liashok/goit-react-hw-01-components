@@ -3,7 +3,7 @@ import StatisticsList from './StatisticsList/StatisticsList';
 
 import css from './Statistic.module.css';
 
-import data from '../../databases/data.json';
+import data from 'data.json';
 
 const Statistics = () => {
   return (
