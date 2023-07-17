@@ -1,6 +1,7 @@
 import userObject from '../databases/user.json';
 import friendArray from '../databases/friends.json';
 import transactionsArray from '../databases/transactions.json';
+import stats from '../databases/data.json';
 
 import ProfileUser from './ProfileUser/ProfileUser';
 import Statistics from './Statistics/Statistics';
@@ -18,7 +19,7 @@ export const App = () => {
         avatar={userObject.avatar}
         stats={userObject.stats}
       />
-      <Statistics />
+      <Statistics title="Upload stats" data={stats} />
       <FriendList friends={friendArray} />
       <TransactionHistory transactions={transactionsArray} />
     </Container>

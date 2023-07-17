@@ -1,17 +1,15 @@
 import StatisticsTitle from './StatisticsTitle/StatisticsTitle';
 import StatisticsList from './StatisticsList/StatisticsList';
+import PropTypes from 'prop-types';
 
 import css from './Statistic.module.css';
 
-import data from '../../databases/data.json';
-
-const Statistics = () => {
+const Statistics = props => {
   return (
     <section className={css.section}>
-      <StatisticsTitle title="Upload stats" />
-      <StatisticsList dataArray={data} />
+      <StatisticsTitle title={props.title} />
+      <StatisticsList dataArray={props.data} />
     </section>
   );
 };
-
 export default Statistics;
