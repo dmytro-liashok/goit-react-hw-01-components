@@ -1,6 +1,6 @@
-import userObject from 'user.json';
-import friendArray from 'friends.json';
-import transactionsArray from 'transactions.json';
+import userObject from '../databases/user.json';
+import friendArray from '../databases/friends.json';
+import transactionsArray from '../databases/transactions.json';
 
 import ProfileUser from './ProfileUser/ProfileUser';
 import Statistics from './Statistics/Statistics';
